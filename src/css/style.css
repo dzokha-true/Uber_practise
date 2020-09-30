@@ -1,0 +1,38 @@
+* {font-family: Roboto, sans-serif;}
+
+nav {
+    height: 51px;
+    background-color: #212121;
+    padding: 13px 70px; }
+
+body {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+header nav .container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.menu {
+    margin: 0 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item_link {
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted;
+    padding-right: 80px;
+    padding-top: 10px;
+}
+
